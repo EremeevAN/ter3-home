@@ -60,5 +60,5 @@ resource "yandex_compute_disk" "empty-disk" {
 Создаем файл ansible.tf
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/10.png)
 
-Принменяем и получаем результат
+Принменяем и получаем результат                         
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/8.png)
