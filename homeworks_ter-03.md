@@ -10,7 +10,7 @@
 
 Применяем изменения и получаем результат:
 
-![image](hhttps://github.com/EremeevAN/ter3-home/blob/main/images/3.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/3.png)
 
 
 
