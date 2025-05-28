@@ -41,7 +41,7 @@ resource "yandex_compute_disk" "empty-disk" {
   block_size = var.diskmgmt.block_size
 ```
 Результат:
-![image](https://github.com/EremeevAN/ter3-home/blob/main/images/5.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/11.png)
 
 Подключаем к ВМ Storage диски(Прописываем в файле disk_vm.tf, в resource "yandex_compute_instance" "storagevm")
 ```bash
