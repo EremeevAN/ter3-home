@@ -58,7 +58,7 @@ resource "yandex_compute_disk" "empty-disk" {
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/7.png)
 ## Задача 4
 Создаем файл ansible.tf
-![image](htthttps://github.com/EremeevAN/ter3-home/blob/main/images/10.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/10.png)
 
 Принменяем и получаем результат
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/8.png)
