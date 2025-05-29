@@ -6,7 +6,7 @@
 ## Задача 2
 Создаем файл count-vm.tf. В котором описаны две одинаковые ВМ web-1 и web-2 с минимальными параметрами, используя мета-аргумент count loop.
 
-![image](https://github.com/EremeevAN/ter3-home/blob/main/images/9.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/15.png)
 
 Применяем изменения и получаем результат:
 
@@ -58,7 +58,7 @@ resource "yandex_compute_disk" "empty-disk" {
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/7.png)
 ## Задача 4
 Создаем файл ansible.tf
-![image](https://github.com/EremeevAN/ter3-home/blob/main/images/10.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/14.png)
 
 Принменяем и получаем результат                         
-![image](https://github.com/EremeevAN/ter3-home/blob/main/images/8.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/13.png)
