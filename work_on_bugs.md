@@ -43,7 +43,7 @@ resource "yandex_compute_instance" "hw3each" {
     for_each = { for vm in var.each_vm : vm.vm_name => vm }
 ```
 
-Была ошибка в файле ansible.tf. Правильный вариант:
+Внесем правку в файле ansible.tf.
 ```bash
  %{if length(yandex_compute_instance.hw3each) > 0}
     [databases]
