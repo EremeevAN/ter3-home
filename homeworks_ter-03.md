@@ -61,4 +61,4 @@ resource "yandex_compute_disk" "empty-disk" {
 ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/14.png)
 
 Принменяем и получаем результат                         
-![image](https://github.com/EremeevAN/ter3-home/blob/main/images/13.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/16.png)
