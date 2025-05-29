@@ -79,7 +79,7 @@ resource "yandex_compute_instance" "web" {
 
     boot_disk {
         initialize_params {
-        image_id = "fd81hgrcv6lsnkremf32"
+        image_id = data.yandex_compute_image.ubuntu.id
         size     = each.value.boot_disk.size
         type     = each.value.boot_disk.type
             }
