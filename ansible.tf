@@ -7,9 +7,9 @@ resource "local_file" "result" {
     %{endfor}
     %{endif}
 
-    %{if length(yandex_compute_instance.hw3) > 0}
+    %{if length(yandex_compute_instance.hw3each) > 0}
     [databases]
-    %{for s in yandex_compute_instance.hw3}
+    %{for s in yandex_compute_instance.hw3each}
     ${s["name"]} ansible_host=${s["network_interface"][0]["nat_ip_address"]} fqdn=${s["fqdn"]}
     %{endfor}
     %{endif}
