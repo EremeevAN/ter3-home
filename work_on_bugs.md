@@ -53,10 +53,10 @@ resource "yandex_compute_instance" "hw3each" {
 Для тестирования в count-vm.tf прописал 5 ВМ. Применил изменения и получил результат:
 В консоли:
     
-    ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/12.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/12.png)
     
 В выходном файле:
 
-    ![image](https://github.com/EremeevAN/ter3-home/blob/main/images/13.png)
+![image](https://github.com/EremeevAN/ter3-home/blob/main/images/13.png)
 
 P.S. Изменения в основной отчет (https://github.com/EremeevAN/ter3-home/blob/main/homeworks_ter-03.md) выполнил 
