@@ -65,7 +65,7 @@ variable "each_vm" {
     }]
 }
 
-resource "yandex_compute_instance" "web" {
+resource "yandex_compute_instance" "hw3each" {
     for_each = { for vm in var.each_vm : vm.vm_name => vm }
 
     name = each.value.vm_name
