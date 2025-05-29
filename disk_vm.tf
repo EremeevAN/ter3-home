@@ -31,7 +31,7 @@ resource "yandex_compute_instance" "storagevm" {
 
     boot_disk {
         initialize_params {
-        image_id = "fd81hgrcv6lsnkremf32"
+        image_id = data.yandex_compute_image.ubuntu.id
         size     = var.platform.size
         type     = var.platform.type
         }
